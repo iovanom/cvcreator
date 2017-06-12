@@ -13,7 +13,7 @@ func main() {
 
 	err := godotenv.Load()
 	if err != nil {
-		log.Fatal("Error loading config file(.env)")
+		log.Println("Error loading config file(.env)")
 	}
 
 	port := os.Getenv("PORT")
