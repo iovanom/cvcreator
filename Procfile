@@ -1,0 +1,1 @@
+web: cvcreator-golang
